@@ -1,0 +1,18 @@
+[
+  {
+    "model": "user.user",
+    "pk": 1,
+    "fields": {
+      "username": "admin@gmail.com",
+      "password": "pbkdf2_sha256$600000$sqErcxJt0fw8ESS4TqMUYI$6MWwuGDYR4JFH+gSNRQFKY1PxLxawQzLUWT/mBAAzAo=",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "admin@gmail.com",
+      "is_active": true,
+      "is_staff": true,
+      "is_superuser": true,
+      "profile_photo": null,
+      "date_joined": "2023-01-01T00:00:00Z"
+    }
+  }
+]

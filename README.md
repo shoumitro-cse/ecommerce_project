@@ -55,28 +55,27 @@ A Django-based E-commerce project with user management, product listings, orders
 6. **Project Clone & Run the Development Server:**
      ```bash
     # Python version 3.xx
-   git clone https://github.com/your-username/ecommerce-project.git
-   cd ecommerce-project
-    cp env.example .env
+    git clone https://github.com/shoumitro-cse/ecommerce_project.git
+    cd ecommerce-project
     python -m venv venv
     source ./venv/bin/activate
-    pip install -r requirements.txt
+    pip install -r requirements/dev.txt
     python manage.py makemigrations
     python manage.py migrate
-    python manage.py collectstatic
-    rm -rf static
-    mv staticfiles static
     python manage.py runserver
     ```
 
 6. **Installation (using Docker Compose): **
      ```bash
-    git clone https://github.com/your-username/ecommerce-project.git
+    git clone https://github.com/shoumitro-cse/ecommerce_project.git
     cd ecommerce-project
-    cp env.example .env
     docker-compose up --build -d
     # or
     docker-compose up --build
+   
+   # username & password
+   username: admin@gmail.com
+   password: 1111
     ```
 
 ## Run Tests
