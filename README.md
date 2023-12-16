@@ -78,3 +78,16 @@ A Django-based E-commerce project with user management, product listings, orders
     # or
     docker-compose up --build
     ```
+
+## Run Tests
+
+```bash
+python manage.py test
+```
+
+
+## API Documentation
+
+```bash
+  go to ---> http://localhost:8000/api/docs/
+```
