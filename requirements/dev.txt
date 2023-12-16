@@ -1,0 +1,13 @@
+celery==5.3.1
+Django==4.2.8
+django-debug-toolbar==4.1.0
+django-cacheops==6.1
+django-cors-headers==3.13.0
+django-filter==23.2
+django-import-export==3.2.0
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.3.1
+psycopg2-binary==2.9.6
+drf-spectacular==0.26.2
+drf-spectacular-sidecar==2023.6.1
+
